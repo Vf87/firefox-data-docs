@@ -3,24 +3,38 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Working with Bit Patterns in Clients Last Seen - Firefox Data Documentation</title>
+        <title>Working with Bit Patterns in Clients Last Seen - Mozilla Data Documentation</title>
         
+        
+
+
+        <!-- Custom HTML head -->
+        
+
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        
+        <link rel="icon" href="../favicon.svg">
+        
+        
         <link rel="shortcut icon" href="../favicon.png">
+        
         <link rel="stylesheet" href="../css/variables.css">
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
+        
         <link rel="stylesheet" href="../css/print.css" media="print">
+        
 
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
 
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
@@ -43,7 +57,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -88,7 +102,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../introduction.html">Firefox Data Documentation</a></li><li class="chapter-item expanded "><a href="../concepts/getting_started.html"><strong aria-hidden="true">1.</strong> Getting Started</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/terminology.html"><strong aria-hidden="true">1.1.</strong> Terminology</a></li><li class="chapter-item expanded "><a href="../concepts/gaining_access.html"><strong aria-hidden="true">1.2.</strong> Gaining Access</a></li><li class="chapter-item expanded "><a href="../concepts/analysis_intro.html"><strong aria-hidden="true">1.3.</strong> Analysis Quick Start</a></li><li class="chapter-item expanded "><a href="../tools/interfaces.html"><strong aria-hidden="true">1.4.</strong> Tools for Data Analysis</a></li><li class="chapter-item expanded "><a href="../metrics/intro.html"><strong aria-hidden="true">1.5.</strong> Intro to Metrics</a></li><li class="chapter-item expanded "><a href="../concepts/analysis_gotchas.html"><strong aria-hidden="true">1.6.</strong> Common Analysis Gotchas</a></li><li class="chapter-item expanded "><a href="../concepts/choosing_a_dataset.html"><strong aria-hidden="true">1.7.</strong> Choosing a Desktop Dataset</a></li><li class="chapter-item expanded "><a href="../concepts/choosing_a_dataset_mobile.html"><strong aria-hidden="true">1.8.</strong> Choosing a Mobile Dataset</a></li><li class="chapter-item expanded "><a href="../concepts/getting_help.html"><strong aria-hidden="true">1.9.</strong> Getting Help</a></li><li class="chapter-item expanded "><a href="../concepts/reporting_a_problem.html"><strong aria-hidden="true">1.10.</strong> Reporting a problem</a></li></ol></li><li class="chapter-item expanded "><a href="../metrics/index.html"><strong aria-hidden="true">2.</strong> Metrics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../metrics/definitions.html"><strong aria-hidden="true">2.1.</strong> Definitions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../metrics/metrics.html"><strong aria-hidden="true">2.1.1.</strong> Metrics</a></li><li class="chapter-item expanded "><a href="../metrics/usage.html"><strong aria-hidden="true">2.1.2.</strong> Usage Criteria</a></li><li class="chapter-item expanded "><a href="../metrics/dimensions.html"><strong aria-hidden="true">2.1.3.</strong> Slicing Dimensions</a></li></ol></li><li class="chapter-item expanded "><a href="../metrics/policy.html"><strong aria-hidden="true">2.2.</strong> Metrics Standardization and Policy</a></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/index.html"><strong aria-hidden="true">3.</strong> Tutorials &amp; Cookbooks</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/analysis/index.html"><strong aria-hidden="true">3.1.</strong> Analysis</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/public_data.html"><strong aria-hidden="true">3.1.1.</strong> Accessing Public Data</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery.html"><strong aria-hidden="true">3.1.2.</strong> Accessing and working with BigQuery</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/bigquery/access.html"><strong aria-hidden="true">3.1.2.1.</strong> Access</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery/querying.html"><strong aria-hidden="true">3.1.2.2.</strong> Writing Queries</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery/optimization.html"><strong aria-hidden="true">3.1.2.3.</strong> Optimization</a></li><li class="chapter-item expanded "><a href="../tools/spark.html"><strong aria-hidden="true">3.1.2.4.</strong> Custom analysis with Spark</a></li></ol></li><li class="chapter-item expanded "><a href="../tools/stmo.html"><strong aria-hidden="true">3.1.3.</strong> Introduction to STMO</a></li><li class="chapter-item expanded "><a href="../concepts/glean/accessing_glean_data.html"><strong aria-hidden="true">3.1.4.</strong> Accessing Glean data</a></li><li class="chapter-item expanded "><a href="../cookbooks/dataset_specific.html"><strong aria-hidden="true">3.1.5.</strong> Dataset-Specific</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/normandy_events.html"><strong aria-hidden="true">3.1.5.1.</strong> Working with Normandy events</a></li><li class="chapter-item expanded "><a href="../cookbooks/crash_pings.html"><strong aria-hidden="true">3.1.5.2.</strong> Working with Crash Pings</a></li><li class="chapter-item expanded "><a href="../cookbooks/clients_last_seen_bits.html" class="active"><strong aria-hidden="true">3.1.5.3.</strong> Working with Bit Patterns in Clients Last Seen</a></li><li class="chapter-item expanded "><a href="../cookbooks/main_ping_exponential_histograms.html"><strong aria-hidden="true">3.1.5.4.</strong> Visualizing Percentiles of an Main Ping Exponential Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/realtime.html"><strong aria-hidden="true">3.1.6.</strong> Real-time</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/view_pings_cep.html"><strong aria-hidden="true">3.1.6.1.</strong> Seeing Your Own Pings</a></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/metrics.html"><strong aria-hidden="true">3.1.7.</strong> Metrics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/dau.html"><strong aria-hidden="true">3.1.7.1.</strong> Daily Active Users (DAU and MAU)</a></li><li class="chapter-item expanded "><a href="../cookbooks/active_dau.html"><strong aria-hidden="true">3.1.7.2.</strong> Active DAU (aDAU)</a></li><li class="chapter-item expanded "><a href="../cookbooks/retention.html"><strong aria-hidden="true">3.1.7.3.</strong> Retention</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/operational/index.html"><strong aria-hidden="true">3.2.</strong> Operational</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/gcp-projects.html"><strong aria-hidden="true">3.2.1.</strong> Creating a Prototype Data Project on Google Cloud Platform</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery-airflow.html"><strong aria-hidden="true">3.2.2.</strong> Scheduling BigQuery Queries in Airflow</a></li><li class="chapter-item expanded "><a href="../cookbooks/deploying-containers.html"><strong aria-hidden="true">3.2.3.</strong> Building and Deploying Containers to GCR with CircleCI</a></li><li class="chapter-item expanded "><a href="../cookbooks/publishing_datasets.html"><strong aria-hidden="true">3.2.4.</strong> Publishing Datasets</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/new_data.html"><strong aria-hidden="true">3.3.</strong> Sending telemetry</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/client_guidelines.html"><strong aria-hidden="true">3.3.1.</strong> Implementing Experiments</a></li><li class="chapter-item expanded "><a href="../cookbooks/events_best_practices.html"><strong aria-hidden="true">3.3.2.</strong> Sending Events</a></li><li class="chapter-item expanded "><a href="../cookbooks/new_ping.html"><strong aria-hidden="true">3.3.3.</strong> Sending a Custom Ping</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../reference/index.html"><strong aria-hidden="true">4.</strong> Data Platform Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tools/guiding_principles.html"><strong aria-hidden="true">4.1.</strong> Guiding Principles for Data Infrastructure</a></li><li class="chapter-item expanded "><a href="../concepts/glean/glean.html"><strong aria-hidden="true">4.2.</strong> Glean overview</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/gcp_data_pipeline.html"><strong aria-hidden="true">4.3.</strong> Overview of Mozilla's Data Pipeline</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/pipeline/http_edge_spec.html"><strong aria-hidden="true">4.3.1.</strong> HTTP Edge Server Specification</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/event_pipeline.html"><strong aria-hidden="true">4.3.2.</strong> Event Pipeline Detail</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/schemas.html"><strong aria-hidden="true">4.3.3.</strong> Schemas</a></li><li class="chapter-item expanded "><a href="../concepts/channels/channel_normalization.html"><strong aria-hidden="true">4.3.4.</strong> Channel Normalization</a></li><li class="chapter-item expanded "><a href="../concepts/sample_id.html"><strong aria-hidden="true">4.3.5.</strong> Sampling</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/sql_style.html"><strong aria-hidden="true">4.4.</strong> SQL Style Guide</a></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">4.5.</strong> Telemetry Behavior Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/history.html"><strong aria-hidden="true">4.5.1.</strong> History of Telemetry</a></li><li class="chapter-item expanded "><a href="../concepts/profile/index.html"><strong aria-hidden="true">4.5.2.</strong> Profile Behavior</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/profile/profile_creation.html"><strong aria-hidden="true">4.5.2.1.</strong> Profile Creation</a></li><li class="chapter-item expanded "><a href="../concepts/profile/realworldusage.html"><strong aria-hidden="true">4.5.2.2.</strong> Real World Usage</a></li><li class="chapter-item expanded "><a href="../concepts/profile/profilehistory.html"><strong aria-hidden="true">4.5.2.3.</strong> Profile History</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/censuses.html"><strong aria-hidden="true">4.5.3.</strong> Census metrics</a></li><li class="chapter-item expanded "><a href="../concepts/engagement.html"><strong aria-hidden="true">4.5.4.</strong> Engagement metrics</a></li><li class="chapter-item expanded "><a href="../concepts/segments.html"><strong aria-hidden="true">4.5.5.</strong> User states/Segments</a></li></ol></li><li class="chapter-item expanded "><a href="../tools/projects.html"><strong aria-hidden="true">4.6.</strong> Project Glossary</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../datasets/reference.html"><strong aria-hidden="true">5.</strong> Dataset Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/pings.html"><strong aria-hidden="true">5.1.</strong> Pings</a></li><li class="chapter-item expanded "><a href="../datasets/derived.html"><strong aria-hidden="true">5.2.</strong> Derived Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/active_profiles.html"><strong aria-hidden="true">5.2.1.</strong> Active Profiles</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/addons/reference.html"><strong aria-hidden="true">5.2.2.</strong> Addons</a></li><li class="chapter-item expanded "><a href="../datasets/other/addons_daily/reference.html"><strong aria-hidden="true">5.2.3.</strong> Addons Daily</a></li><li class="chapter-item expanded "><a href="../datasets/other/asn_aggregates/reference.html"><strong aria-hidden="true">5.2.4.</strong> Autonomous System Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/other/attitudes_daily/reference.html"><strong aria-hidden="true">5.2.5.</strong> Attitudes Daily</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/clients_daily/reference.html"><strong aria-hidden="true">5.2.6.</strong> Clients Daily</a></li><li class="chapter-item expanded "><a href="../datasets/bigquery/clients_last_seen/reference.html"><strong aria-hidden="true">5.2.7.</strong> Clients Last Seen</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/events/reference.html"><strong aria-hidden="true">5.2.8.</strong> Events</a></li><li class="chapter-item expanded "><a href="../datasets/bigquery/exact_mau/reference.html"><strong aria-hidden="true">5.2.9.</strong> Exact MAU</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/main_summary/reference.html"><strong aria-hidden="true">5.2.10.</strong> Main Summary</a></li><li class="chapter-item expanded "><a href="../datasets/other/socorro_crash/reference.html"><strong aria-hidden="true">5.2.11.</strong> Socorro Crash Reports</a></li><li class="chapter-item expanded "><a href="../datasets/other/ssl/reference.html"><strong aria-hidden="true">5.2.12.</strong> SSL Ratios (public)</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/telemetry_aggregates/reference.html"><strong aria-hidden="true">5.2.13.</strong> Telemetry Aggregates</a></li></ol></li><li class="chapter-item expanded "><a href="../tools/experiments.html"><strong aria-hidden="true">5.3.</strong> Experiment Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/jetstream.html"><strong aria-hidden="true">5.3.1.</strong> Jetstream</a></li><li class="chapter-item expanded "><a href="../datasets/heartbeat.html"><strong aria-hidden="true">5.3.2.</strong> Accessing Heartbeat data</a></li><li class="chapter-item expanded "><a href="../datasets/shield.html"><strong aria-hidden="true">5.3.3.</strong> Accessing Shield Study data</a></li><li class="chapter-item expanded "><a href="../datasets/dynamic_telemetry.html"><strong aria-hidden="true">5.3.4.</strong> Dynamic telemetry</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/search.html"><strong aria-hidden="true">5.4.</strong> Search Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/search/search_aggregates/reference.html"><strong aria-hidden="true">5.4.1.</strong> Search Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/search/search_clients_daily/reference.html"><strong aria-hidden="true">5.4.2.</strong> Search Clients Daily</a></li><li class="chapter-item expanded "><a href="../datasets/search/search_clients_last_seen/reference.html"><strong aria-hidden="true">5.4.3.</strong> Search Clients Last Seen</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/other.html"><strong aria-hidden="true">5.5.</strong> Other Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/other/hgpush/reference.html"><strong aria-hidden="true">5.5.1.</strong> hgpush</a></li><li class="chapter-item expanded "><a href="../datasets/other/stub_installer/reference.html"><strong aria-hidden="true">5.5.2.</strong> Stub installer ping</a></li><li class="chapter-item expanded "><a href="../datasets/other/activity-stream/reference.html"><strong aria-hidden="true">5.5.3.</strong> Activity Stream</a></li><li class="chapter-item expanded "><a href="../datasets/other/bmobugs/reference.html"><strong aria-hidden="true">5.5.4.</strong> bmobugs</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/fxa.html"><strong aria-hidden="true">5.6.</strong> Firefox Accounts Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/fxa_metrics/attribution.html"><strong aria-hidden="true">5.6.1.</strong> Firefox Account Attribution</a></li><li class="chapter-item expanded "><a href="../datasets/fxa_metrics/funnels.html"><strong aria-hidden="true">5.6.2.</strong> Firefox Account Funnel Metrics</a></li><li class="chapter-item expanded "><a href="../datasets/fxa_metrics/emails.html"><strong aria-hidden="true">5.6.3.</strong> Firefox Account Email Metrics</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/static.html"><strong aria-hidden="true">5.7.</strong> Static Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/static/normalized_os.html"><strong aria-hidden="true">5.7.1.</strong> Normalized OS Names And Versions</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../historical/index.html"><strong aria-hidden="true">6.</strong> Historical Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/pipeline/data_pipeline.html"><strong aria-hidden="true">6.1.</strong> Previous AWS Pipeline Overview</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/data_pipeline_detail.html"><strong aria-hidden="true">6.2.</strong> In-depth AWS Data Pipeline Detail</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete.html"><strong aria-hidden="true">6.3.</strong> Obsolete Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/obsolete/churn/reference.html"><strong aria-hidden="true">6.3.1.</strong> Churn</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/client_count/reference.html"><strong aria-hidden="true">6.3.2.</strong> Client Count</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/client_count_daily/reference.html"><strong aria-hidden="true">6.3.3.</strong> Client Count Daily</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/crash_aggregates/reference.html"><strong aria-hidden="true">6.3.4.</strong> Crash Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/crash_summary/reference.html"><strong aria-hidden="true">6.3.5.</strong> Crash Summary</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/error_aggregates/reference.html"><strong aria-hidden="true">6.3.6.</strong> Error Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/first_shutdown_summary/reference.html"><strong aria-hidden="true">6.3.7.</strong> First Shutdown Summary</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/heavy_users/reference.html"><strong aria-hidden="true">6.3.8.</strong> Heavy Users</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/longitudinal/reference.html"><strong aria-hidden="true">6.3.9.</strong> Longitudinal</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/retention/reference.html"><strong aria-hidden="true">6.3.10.</strong> Retention</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/sync_summary/reference.html"><strong aria-hidden="true">6.3.11.</strong> Sync Summary</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/update/reference.html"><strong aria-hidden="true">6.3.12.</strong> Update</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../contributing/index.html"><strong aria-hidden="true">7.</strong> Contributing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../contributing/style_guide.html"><strong aria-hidden="true">7.1.</strong> Style Guide</a></li><li class="chapter-item expanded "><a href="../contributing/structure.html"><strong aria-hidden="true">7.2.</strong> Structure</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../introduction.html">Mozilla Data Documentation</a></li><li class="chapter-item expanded "><a href="../concepts/getting_started.html"><strong aria-hidden="true">1.</strong> Getting Started</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/terminology.html"><strong aria-hidden="true">1.1.</strong> Terminology</a></li><li class="chapter-item expanded "><a href="../concepts/gaining_access.html"><strong aria-hidden="true">1.2.</strong> Gaining Access</a></li><li class="chapter-item expanded "><a href="../concepts/analysis_intro.html"><strong aria-hidden="true">1.3.</strong> Analysis Quick Start</a></li><li class="chapter-item expanded "><a href="../tools/interfaces.html"><strong aria-hidden="true">1.4.</strong> Tools for Data Analysis</a></li><li class="chapter-item expanded "><a href="../concepts/analysis_gotchas.html"><strong aria-hidden="true">1.5.</strong> Common Analysis Gotchas</a></li><li class="chapter-item expanded "><a href="../concepts/choosing_a_dataset.html"><strong aria-hidden="true">1.6.</strong> Choosing a Desktop Dataset</a></li><li class="chapter-item expanded "><a href="../concepts/choosing_a_dataset_mobile.html"><strong aria-hidden="true">1.7.</strong> Choosing a Mobile Dataset</a></li><li class="chapter-item expanded "><a href="../concepts/getting_help.html"><strong aria-hidden="true">1.8.</strong> Getting Help</a></li><li class="chapter-item expanded "><a href="../concepts/reporting_a_problem.html"><strong aria-hidden="true">1.9.</strong> Reporting a problem</a></li></ol></li><li class="chapter-item expanded "><a href="../metrics/index.html"><strong aria-hidden="true">2.</strong> Metrics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../metrics/definitions.html"><strong aria-hidden="true">2.1.</strong> Definitions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../metrics/metrics.html"><strong aria-hidden="true">2.1.1.</strong> Metrics</a></li><li class="chapter-item expanded "><a href="../metrics/usage.html"><strong aria-hidden="true">2.1.2.</strong> Usage Criteria</a></li><li class="chapter-item expanded "><a href="../metrics/dimensions.html"><strong aria-hidden="true">2.1.3.</strong> Slicing Dimensions</a></li></ol></li><li class="chapter-item expanded "><a href="../metrics/policy.html"><strong aria-hidden="true">2.2.</strong> Metrics Standardization and Policy</a></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/index.html"><strong aria-hidden="true">3.</strong> Tutorials &amp; Cookbooks</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/analysis/index.html"><strong aria-hidden="true">3.1.</strong> Analysis</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/public_data.html"><strong aria-hidden="true">3.1.1.</strong> Accessing Public Data</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery.html"><strong aria-hidden="true">3.1.2.</strong> Accessing and working with BigQuery</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/bigquery/access.html"><strong aria-hidden="true">3.1.2.1.</strong> Access</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery/querying.html"><strong aria-hidden="true">3.1.2.2.</strong> Writing Queries</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery/optimization.html"><strong aria-hidden="true">3.1.2.3.</strong> Optimization</a></li><li class="chapter-item expanded "><a href="../tools/spark.html"><strong aria-hidden="true">3.1.2.4.</strong> Custom analysis with Spark</a></li></ol></li><li class="chapter-item expanded "><a href="../tools/stmo.html"><strong aria-hidden="true">3.1.3.</strong> Introduction to STMO</a></li><li class="chapter-item expanded "><a href="../concepts/glean/accessing_glean_data.html"><strong aria-hidden="true">3.1.4.</strong> Accessing Glean data</a></li><li class="chapter-item expanded "><a href="../cookbooks/dataset_specific.html"><strong aria-hidden="true">3.1.5.</strong> Dataset-Specific</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/normandy_events.html"><strong aria-hidden="true">3.1.5.1.</strong> Working with Normandy events</a></li><li class="chapter-item expanded "><a href="../cookbooks/crash_pings.html"><strong aria-hidden="true">3.1.5.2.</strong> Working with Crash Pings</a></li><li class="chapter-item expanded "><a href="../cookbooks/clients_last_seen_bits.html" class="active"><strong aria-hidden="true">3.1.5.3.</strong> Working with Bit Patterns in Clients Last Seen</a></li><li class="chapter-item expanded "><a href="../cookbooks/main_ping_exponential_histograms.html"><strong aria-hidden="true">3.1.5.4.</strong> Visualizing Percentiles of an Main Ping Exponential Histogram</a></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/realtime.html"><strong aria-hidden="true">3.1.6.</strong> Real-time</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/view_pings_cep.html"><strong aria-hidden="true">3.1.6.1.</strong> Seeing Your Own Pings</a></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/metrics.html"><strong aria-hidden="true">3.1.7.</strong> Metrics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/dau.html"><strong aria-hidden="true">3.1.7.1.</strong> Daily Active Users (DAU and MAU)</a></li><li class="chapter-item expanded "><a href="../cookbooks/active_dau.html"><strong aria-hidden="true">3.1.7.2.</strong> Active DAU (aDAU)</a></li><li class="chapter-item expanded "><a href="../cookbooks/retention.html"><strong aria-hidden="true">3.1.7.3.</strong> Retention</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../cookbooks/operational/index.html"><strong aria-hidden="true">3.2.</strong> Operational</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/gcp-projects.html"><strong aria-hidden="true">3.2.1.</strong> Creating a Prototype Data Project on Google Cloud Platform</a></li><li class="chapter-item expanded "><a href="../cookbooks/operational/protosaur.html"><strong aria-hidden="true">3.2.2.</strong> Creating Static Dashboards with Protosaur</a></li><li class="chapter-item expanded "><a href="../cookbooks/bigquery-airflow.html"><strong aria-hidden="true">3.2.3.</strong> Scheduling BigQuery Queries in Airflow</a></li><li class="chapter-item expanded "><a href="../cookbooks/deploying-containers.html"><strong aria-hidden="true">3.2.4.</strong> Building and Deploying Containers to GCR with CircleCI</a></li><li class="chapter-item expanded "><a href="../cookbooks/publishing_datasets.html"><strong aria-hidden="true">3.2.5.</strong> Publishing Datasets</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/new_data.html"><strong aria-hidden="true">3.3.</strong> Sending telemetry</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cookbooks/client_guidelines.html"><strong aria-hidden="true">3.3.1.</strong> Implementing Experiments</a></li><li class="chapter-item expanded "><a href="../cookbooks/events_best_practices.html"><strong aria-hidden="true">3.3.2.</strong> Sending Events</a></li><li class="chapter-item expanded "><a href="../cookbooks/new_ping.html"><strong aria-hidden="true">3.3.3.</strong> Sending a Custom Ping</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../reference/index.html"><strong aria-hidden="true">4.</strong> Data Platform Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tools/guiding_principles.html"><strong aria-hidden="true">4.1.</strong> Guiding Principles for Data Infrastructure</a></li><li class="chapter-item expanded "><a href="../concepts/glean/glean.html"><strong aria-hidden="true">4.2.</strong> Glean overview</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/gcp_data_pipeline.html"><strong aria-hidden="true">4.3.</strong> Overview of Mozilla's Data Pipeline</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/pipeline/http_edge_spec.html"><strong aria-hidden="true">4.3.1.</strong> HTTP Edge Server Specification</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/event_pipeline.html"><strong aria-hidden="true">4.3.2.</strong> Event Pipeline Detail</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/schemas.html"><strong aria-hidden="true">4.3.3.</strong> Schemas</a></li><li class="chapter-item expanded "><a href="../concepts/channels/channel_normalization.html"><strong aria-hidden="true">4.3.4.</strong> Channel Normalization</a></li><li class="chapter-item expanded "><a href="../concepts/sample_id.html"><strong aria-hidden="true">4.3.5.</strong> Sampling</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/filtering.html"><strong aria-hidden="true">4.3.6.</strong> Filtering</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/sql_style.html"><strong aria-hidden="true">4.4.</strong> SQL Style Guide</a></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">4.5.</strong> Telemetry Behavior Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/history.html"><strong aria-hidden="true">4.5.1.</strong> History of Telemetry</a></li><li class="chapter-item expanded "><a href="../concepts/profile/index.html"><strong aria-hidden="true">4.5.2.</strong> Profile Behavior</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/profile/profile_creation.html"><strong aria-hidden="true">4.5.2.1.</strong> Profile Creation</a></li><li class="chapter-item expanded "><a href="../concepts/profile/realworldusage.html"><strong aria-hidden="true">4.5.2.2.</strong> Real World Usage</a></li><li class="chapter-item expanded "><a href="../concepts/profile/profilehistory.html"><strong aria-hidden="true">4.5.2.3.</strong> Profile History</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/engagement.html"><strong aria-hidden="true">4.5.3.</strong> Engagement metrics</a></li><li class="chapter-item expanded "><a href="../concepts/segments.html"><strong aria-hidden="true">4.5.4.</strong> User states/Segments</a></li></ol></li><li class="chapter-item expanded "><a href="../tools/projects.html"><strong aria-hidden="true">4.6.</strong> Project Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/reference.html"><strong aria-hidden="true">5.</strong> Dataset Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/pings.html"><strong aria-hidden="true">5.1.</strong> Pings</a></li><li class="chapter-item expanded "><a href="../datasets/derived.html"><strong aria-hidden="true">5.2.</strong> Derived Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/active_profiles.html"><strong aria-hidden="true">5.2.1.</strong> Active Profiles</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/addons/reference.html"><strong aria-hidden="true">5.2.2.</strong> Addons</a></li><li class="chapter-item expanded "><a href="../datasets/other/addons_daily/reference.html"><strong aria-hidden="true">5.2.3.</strong> Addons Daily</a></li><li class="chapter-item expanded "><a href="../datasets/other/asn_aggregates/reference.html"><strong aria-hidden="true">5.2.4.</strong> Autonomous System Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/other/attitudes_daily/reference.html"><strong aria-hidden="true">5.2.5.</strong> Attitudes Daily</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/clients_daily/reference.html"><strong aria-hidden="true">5.2.6.</strong> Clients Daily</a></li><li class="chapter-item expanded "><a href="../datasets/bigquery/clients_last_seen/reference.html"><strong aria-hidden="true">5.2.7.</strong> Clients Last Seen</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/events/reference.html"><strong aria-hidden="true">5.2.8.</strong> Events</a></li><li class="chapter-item expanded "><a href="../datasets/bigquery/exact_mau/reference.html"><strong aria-hidden="true">5.2.9.</strong> Exact MAU</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/main_summary/reference.html"><strong aria-hidden="true">5.2.10.</strong> Main Summary</a></li><li class="chapter-item expanded "><a href="../datasets/other/socorro_crash/reference.html"><strong aria-hidden="true">5.2.11.</strong> Socorro Crash Reports</a></li><li class="chapter-item expanded "><a href="../datasets/other/ssl/reference.html"><strong aria-hidden="true">5.2.12.</strong> SSL Ratios (public)</a></li><li class="chapter-item expanded "><a href="../datasets/batch_view/telemetry_aggregates/reference.html"><strong aria-hidden="true">5.2.13.</strong> Telemetry Aggregates</a></li></ol></li><li class="chapter-item expanded "><a href="../tools/experiments.html"><strong aria-hidden="true">5.3.</strong> Experiment Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/jetstream.html"><strong aria-hidden="true">5.3.1.</strong> Jetstream</a></li><li class="chapter-item expanded "><a href="../datasets/heartbeat.html"><strong aria-hidden="true">5.3.2.</strong> Accessing Heartbeat data</a></li><li class="chapter-item expanded "><a href="../datasets/shield.html"><strong aria-hidden="true">5.3.3.</strong> Accessing Shield Study data</a></li><li class="chapter-item expanded "><a href="../datasets/dynamic_telemetry.html"><strong aria-hidden="true">5.3.4.</strong> Dynamic telemetry</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/search.html"><strong aria-hidden="true">5.4.</strong> Search Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/search/search_aggregates/reference.html"><strong aria-hidden="true">5.4.1.</strong> Search Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/search/search_clients_daily/reference.html"><strong aria-hidden="true">5.4.2.</strong> Search Clients Daily</a></li><li class="chapter-item expanded "><a href="../datasets/search/search_clients_last_seen/reference.html"><strong aria-hidden="true">5.4.3.</strong> Search Clients Last Seen</a></li><li class="chapter-item expanded "><a href="../datasets/search/client_ltv/reference.html"><strong aria-hidden="true">5.4.4.</strong> Client LTV</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/non_desktop.html"><strong aria-hidden="true">5.5.</strong> Non-Desktop Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/non_desktop/day_2_7_activation/reference.html"><strong aria-hidden="true">5.5.1.</strong> Day 2-7 Activation</a></li><li class="chapter-item expanded "><a href="../datasets/non_desktop/google_play_store/reference.html"><strong aria-hidden="true">5.5.2.</strong> Google Play Store</a></li><li class="chapter-item expanded "><a href="../datasets/non_desktop/apple_app_store/reference.html"><strong aria-hidden="true">5.5.3.</strong> Apple App Store</a></li><li class="chapter-item expanded "><a href="../datasets/non_desktop/events_daily/reference.html"><strong aria-hidden="true">5.5.4.</strong> Events Daily</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/other.html"><strong aria-hidden="true">5.6.</strong> Other Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/other/hgpush/reference.html"><strong aria-hidden="true">5.6.1.</strong> hgpush</a></li><li class="chapter-item expanded "><a href="../datasets/other/stub_installer/reference.html"><strong aria-hidden="true">5.6.2.</strong> Stub installer ping</a></li><li class="chapter-item expanded "><a href="../datasets/other/activity-stream/reference.html"><strong aria-hidden="true">5.6.3.</strong> Activity Stream</a></li><li class="chapter-item expanded "><a href="../datasets/other/bmobugs/reference.html"><strong aria-hidden="true">5.6.4.</strong> bmobugs</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/fxa.html"><strong aria-hidden="true">5.7.</strong> Firefox Accounts Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/fxa_metrics/attribution.html"><strong aria-hidden="true">5.7.1.</strong> Firefox Account Attribution</a></li><li class="chapter-item expanded "><a href="../datasets/fxa_metrics/funnels.html"><strong aria-hidden="true">5.7.2.</strong> Firefox Account Funnel Metrics</a></li><li class="chapter-item expanded "><a href="../datasets/fxa_metrics/emails.html"><strong aria-hidden="true">5.7.3.</strong> Firefox Account Email Metrics</a></li></ol></li><li class="chapter-item expanded "><a href="../datasets/static.html"><strong aria-hidden="true">5.8.</strong> Static Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/static/normalized_os.html"><strong aria-hidden="true">5.8.1.</strong> Normalized OS Names And Versions</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../historical/index.html"><strong aria-hidden="true">6.</strong> Historical Reference</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../concepts/pipeline/data_pipeline.html"><strong aria-hidden="true">6.1.</strong> Previous AWS Pipeline Overview</a></li><li class="chapter-item expanded "><a href="../concepts/pipeline/data_pipeline_detail.html"><strong aria-hidden="true">6.2.</strong> In-depth AWS Data Pipeline Detail</a></li><li class="chapter-item expanded "><a href="../concepts/censuses.html"><strong aria-hidden="true">6.3.</strong> Legacy Census Metrics</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete.html"><strong aria-hidden="true">6.4.</strong> Obsolete Datasets</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../datasets/obsolete/churn/reference.html"><strong aria-hidden="true">6.4.1.</strong> Churn</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/client_count/reference.html"><strong aria-hidden="true">6.4.2.</strong> Client Count</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/client_count_daily/reference.html"><strong aria-hidden="true">6.4.3.</strong> Client Count Daily</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/crash_aggregates/reference.html"><strong aria-hidden="true">6.4.4.</strong> Crash Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/crash_summary/reference.html"><strong aria-hidden="true">6.4.5.</strong> Crash Summary</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/error_aggregates/reference.html"><strong aria-hidden="true">6.4.6.</strong> Error Aggregates</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/first_shutdown_summary/reference.html"><strong aria-hidden="true">6.4.7.</strong> First Shutdown Summary</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/heavy_users/reference.html"><strong aria-hidden="true">6.4.8.</strong> Heavy Users</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/longitudinal/reference.html"><strong aria-hidden="true">6.4.9.</strong> Longitudinal</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/retention/reference.html"><strong aria-hidden="true">6.4.10.</strong> Retention</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/sync_summary/reference.html"><strong aria-hidden="true">6.4.11.</strong> Sync Summary</a></li><li class="chapter-item expanded "><a href="../datasets/obsolete/update/reference.html"><strong aria-hidden="true">6.4.12.</strong> Update</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../contributing/index.html"><strong aria-hidden="true">7.</strong> Contributing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../contributing/style_guide.html"><strong aria-hidden="true">7.1.</strong> Style Guide</a></li><li class="chapter-item expanded "><a href="../contributing/structure.html"><strong aria-hidden="true">7.2.</strong> Structure</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -120,14 +134,16 @@
                         
                     </div>
 
-                    <h1 class="menu-title">Firefox Data Documentation</h1>
+                    <h1 class="menu-title">Mozilla Data Documentation</h1>
 
                     <div class="right-buttons">
+                        
                         <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
-                        <a href="https://github.com/mozilla/firefox-data-docs" title="Git repository" aria-label="Git repository">
+                        
+                        <a href="https://github.com/mozilla/data-docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
                         
@@ -198,15 +214,16 @@ and how to build new metrics from them.</p>
 <li><a href="#retention-using-activity-date">Retention using activity date</a></li>
 </ul>
 </li>
+<li><a href="#proposing-a-new-bit-pattern-field">Proposing a new bit pattern field</a></li>
 <li><a href="#udf-reference">UDF Reference</a>
 <ul>
-<li><a href="#bits28_to_string"><code>bits28_to_string</code></a></li>
-<li><a href="#bits28_from_string"><code>bits28_from_string</code></a></li>
-<li><a href="#bits28_to_dates"><code>bits28_to_dates</code></a></li>
-<li><a href="#bits28_days_since_seen"><code>bits28_days_since_seen</code></a></li>
-<li><a href="#bits28_range"><code>bits28_range</code></a></li>
-<li><a href="#bits28_active_in_range"><code>bits28_active_in_range</code></a></li>
-<li><a href="#bits28_retention"><code>bits28_retention</code></a></li>
+<li><a href="#bits28to_string"><code>bits28.to_string</code></a></li>
+<li><a href="#bits28from_string"><code>bits28.from_string</code></a></li>
+<li><a href="#bits28to_dates"><code>bits28.to_dates</code></a></li>
+<li><a href="#bits28days_since_seen"><code>bits28.days_since_seen</code></a></li>
+<li><a href="#bits28range"><code>bits28.range</code></a></li>
+<li><a href="#bits28active_in_range"><code>bits28.active_in_range</code></a></li>
+<li><a href="#bits28retention"><code>bits28.retention</code></a></li>
 </ul>
 </li>
 </ul>
@@ -222,7 +239,7 @@ toward DAU.</p>
 <p>The user-facing <code>clients_last_seen</code> views present fields like <code>days_since_seen</code>
 that extract this information for us from the underlying <code>days_seen_bits</code> field,
 allowing us to easily express DAU, WAU, and MAU aggregates like:</p>
-<pre><code>SELECT
+<pre><code class="language-sql">SELECT
   submission_date,
   COUNTIF(days_since_seen &lt; 28) AS mau,
   COUNTIF(days_since_seen &lt;  7) AS wau,
@@ -236,12 +253,12 @@ GROUP BY
 ORDER BY
   submission_date
 </code></pre>
-<p>Under the hood, <code>days_since_seen</code> is calculated using the <code>bits28_days_since_seen</code>
+<p>Under the hood, <code>days_since_seen</code> is calculated using the <code>bits28.days_since_seen</code>
 UDF which is explained in more detail later in this article.</p>
 <p>Note that the desktop <code>clients_last_seen</code> table also has additional bit pattern
 fields corresponding to other <a href="../metrics/index.html">usage criteria</a>,
 so other variants on MAU can be calculated like:</p>
-<pre><code>SELECT
+<pre><code class="language-sql">SELECT
   submission_date,
   COUNTIF(days_since_visited_5_uri &lt; 28) AS visited_5_uri_mau,
   COUNTIF(days_since_opened_dev_tools &lt; 28) AS opened_dev_tools_mau
@@ -260,7 +277,7 @@ if a historical backfill is necessary, so
 new usage criteria.</p>
 <p>Also note that non-desktop products also have derived tables following the
 <code>clients_last_seen</code> methodology. Per-product MAU could be calculated as:</p>
-<pre><code>SELECT
+<pre><code class="language-sql">SELECT
   submission_date,
   app_name,
   COUNTIF(days_since_seen &lt; 28) AS mau,
@@ -284,7 +301,7 @@ later.</p>
 which considers a window of 14 days.
 For each client active in &quot;week 0&quot; (days 0 through 6), we determine retention by
 checking if they were also active in &quot;week 1&quot; (days 7 through 13).</p>
-<p>We provide a UDF called <code>bits28_retention</code> that returns a rich STRUCT
+<p>We provide a UDF called <code>bits28.retention</code> that returns a rich STRUCT
 type representing activity in various windows, with all the date and bit
 offsets handled for you. You pass in a bit pattern and the corresponding <code>submission_date</code>,
 and it returns fields like:</p>
@@ -294,7 +311,7 @@ and it returns fields like:</p>
 <li><code>day_13.active_in_week_1</code></li>
 </ul>
 <p>Calculating GUD's retention aggregates and some other variants looks like:</p>
-<pre><code>-- The struct returned by bits28_retention is nested.
+<pre><code class="language-sql">-- The struct returned by bits28.retention is nested.
 -- The first level of nesting defines the beginning of our window;
 -- in our case, we want day_13 to get retention in a 2-week window.
 -- This base query uses day_13.* to make all the day_13 fields available:
@@ -306,10 +323,10 @@ and it returns fields like:</p>
 WITH base AS (
   SELECT
     *,
-    udf.bits28_retention(
+    mozfun.bits28.retention(
       days_seen_bits, submission_date
       ).day_13.*,
-    udf.bits28_retention(
+    mozfun.bits28.retention(
       days_created_profile_bits, submission_date
       ).day_13.active_on_metric_date AS is_new_profile
   FROM
@@ -358,9 +375,9 @@ GROUP BY
 same condition as the denominator plus additional constraints (<code>AND ...</code>).
 It is very easy to accidentally define a retention metric that is logically
 inconsistent and can rise above 1.</p>
-<p>Under the hood, <code>bits28_retention</code> is using a series of calls to the lower-level
-<code>bits28_range</code> function, which is explained later in this article.
-<code>bits28_range</code> is very powerful and can be used to construct novel metrics,
+<p>Under the hood, <code>bits28.retention</code> is using a series of calls to the lower-level
+<code>bits28.range</code> function, which is explained later in this article.
+<code>bits28.range</code> is very powerful and can be used to construct novel metrics,
 but it also introduces many opportunities for off-by-one errors and passing parameters
 in incorrect order, so please fully read through this documentation before
 attempting to use the lower-level functions.</p>
@@ -376,10 +393,10 @@ means that the client was seen on <code>submission_date</code> <em>and</em> the 
 <p>It's much easier to reason about these bit patterns, however, when we view them
 as strings of ones and zeros. We've provided a UDF to convert these
 values to &quot;bit strings&quot;:</p>
-<pre><code>SELECT
-  [ udf.bits28_to_string(1),
-    udf.bits28_to_string(2),
-    udf.bits28_to_string(3) ]
+<pre><code class="language-sql">SELECT
+  [ mozfun.bits28.to_string(1),
+    mozfun.bits28.to_string(2),
+    mozfun.bits28.to_string(3) ]
 
 &gt;&gt;&gt; ['0000000000000000000000000001',
      '0000000000000000000000000010',
@@ -392,24 +409,24 @@ the rest of the bits are unset (0).</p>
 to <code>2^13 + 2^6</code> and its string representation should have two <code>1</code> values.
 If we label the rightmost bit as &quot;offset 0&quot;, we would expect the set
 bits to be at offsets <code>-13</code> and <code>-6</code>:</p>
-<pre><code>SELECT udf.bits28_to_string(8256)
+<pre><code class="language-sql">SELECT mozfun.bits28.to_string(8256)
 
 &gt;&gt;&gt; '0000000000000010000001000000'
 </code></pre>
 <p>We also provide the inverse of this function to take a string representation
 of a bit pattern and return the associated integer:</p>
-<pre><code>SELECT udf.bits28_from_string('0000000000000010000001000000')
+<pre><code class="language-sql">SELECT mozfun.bits28.from_string('0000000000000010000001000000')
 
 &gt;&gt;&gt; 8256
 </code></pre>
 <p>Note that the leading zeros are optional for this function:</p>
-<pre><code>SELECT udf.bits28_from_string('10000001000000')
+<pre><code class="language-sql">SELECT mozfun.bits28.from_string('10000001000000')
 
 &gt;&gt;&gt; 8256
 </code></pre>
 <p>Finally, we can translate this into an array of concrete dates by passing
 a value for the date that corresponds to the rightmost bit:</p>
-<pre><code>SELECT udf.bits28_to_dates(8256, '2020-01-28')
+<pre><code class="language-sql">SELECT mozfun.bits28.to_dates(8256, '2020-01-28')
 
 &gt;&gt;&gt; ['2020-01-15', '2020-01-22']
 </code></pre>
@@ -480,13 +497,13 @@ be represented as bit string <code>'0000000000000010000001000000'</code>.</p>
     │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │
     │-26  │-24  │-22  │-20  │-18  │-16  │-14  │-12  │-10  │ -8  │ -6  │ -4  │ -2  │  0
   -27   -25   -23   -21   -19   -17   -15   -13   -11    -9    -7    -5    -3    -1
-   
+
   └──────────────────────────────────────────────────────────────────────────────────┘
   MAU                                                             └──────────────────┘
                                                                    WAU             └─┘
                                                                                    DAU
 </code></pre>
-<p>In this picture, we've annotated the windows for DAU (day 0 only), 
+<p>In this picture, we've annotated the windows for DAU (day 0 only),
 WAU (days 0 through -6) and MAU (days 0 through -27). This particular client
 won't count toward DAU for 2020-01-28, but the client does count towards both
 WAU and MAU.</p>
@@ -494,7 +511,7 @@ WAU and MAU.</p>
 does not matter but only the <em>recency</em> of the latest active day.
 We provide a special function to tell us how many days have elapsed since
 the most recent activity encoded in a bit pattern:</p>
-<pre><code>SELECT udf.bits28_days_since_seen(udf.bits28_from_string('10000001000000'))
+<pre><code class="language-sql">SELECT mozfun.bits28.days_since_seen(mozfun.bits28.from_string('10000001000000'))
 
 &gt;&gt;&gt; 6
 </code></pre>
@@ -502,7 +519,7 @@ the most recent activity encoded in a bit pattern:</p>
 views, so that instead of referencing <code>days_seen_bits</code> with a UDF, you can
 instead reference a field called <code>days_since_seen</code>. Counting MAU, WAU, and
 DAU generally looks like:</p>
-<pre><code>SELECT
+<pre><code class="language-sql">SELECT
   COUNTIF(days_since_seen &lt; 28) AS mau,
   COUNTIF(days_since_seen &lt;  7) AS wau,
   COUNTIF(days_since_seen &lt;  1) AS dau
@@ -518,7 +535,7 @@ pattern for this client will look like:</p>
     │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │  │
     │-26  │-24  │-22  │-20  │-18  │-16  │-14  │-12  │-10  │ -8  │ -6  │ -4  │ -2  │  0
   -27   -25   -23   -21   -19   -17   -15   -13   -11    -9    -7    -5    -3    -1
-   
+
   └──────────────────────────────────────────────────────────────────────────────────┘
   MAU                                                             └──────────────────┘
                                                                    WAU             └─┘
@@ -528,7 +545,7 @@ pattern for this client will look like:</p>
 falling off (since it's now outside the 28-day range) and a trailing zero added
 on the right (this would be a <code>1</code> instead if the user had been active on 2020-01-29).</p>
 <p>The <code>days_since_seen</code> value is now <code>7</code>, which is outside the WAU window:</p>
-<pre><code>SELECT udf.bits28_days_since_seen(udf.bits28_from_string('100000010000000'))
+<pre><code class="language-sql">SELECT mozfun.bits28.days_since_seen(mozfun.bits28.from_string('100000010000000'))
 
 &gt;&gt;&gt; 7
 </code></pre>
@@ -575,35 +592,35 @@ date (&quot;day 0&quot;) itself. The client shown above would not count as &quot
 </code></pre>
 <p>But how can we extract this usage per week information in a query?</p>
 <p>Extracting the bits for a specific week can be achieved via UDF:</p>
-<pre><code>SELECT
-  -- Signature is bits28_range(offset_to_day_0, start_bit, number_of_bits)
-  udf.bits28_range(days_seen_bits, -13 + 0, 7) AS week_0_bits,
-  udf.bits28_range(days_seen_bits, -13 + 7, 7) AS week_1_bits
+<pre><code class="language-sql">SELECT
+  -- Signature is bits28.range(offset_to_day_0, start_bit, number_of_bits)
+  mozfun.bits28.range(days_seen_bits, -13 + 0, 7) AS week_0_bits,
+  mozfun.bits28.range(days_seen_bits, -13 + 7, 7) AS week_1_bits
 FROM
   telemetry.clients_last_seen
 </code></pre>
 <p>And then we can turn those bits into a boolean indicating whether the client
 was active or not as:</p>
-<pre><code>SELECT
-  BIT_COUNT(udf.bits28_range(days_seen_bits, -13 + 0, 7)) &gt; 0 AS active_in_week_0
-  BIT_COUNT(udf.bits28_range(days_seen_bits, -13 + 7, 7)) &gt; 0 AS active_in_week_1
+<pre><code class="language-sql">SELECT
+  BIT_COUNT(mozfun.bits28.range(days_seen_bits, -13 + 0, 7)) &gt; 0 AS active_in_week_0
+  BIT_COUNT(mozfun.bits28.range(days_seen_bits, -13 + 7, 7)) &gt; 0 AS active_in_week_1
 FROM
   telemetry.clients_last_seen
 </code></pre>
 <p>This pattern of checking whether any bit is set within a given range is common
-enough that we provide short-hand for it in <code>bits28_active_in_range</code>.
+enough that we provide short-hand for it in <code>bits28.active_in_range</code>.
 The above query can be made a bit cleaner as:</p>
-<pre><code>SELECT
-  udf.bits28_active_in_range(days_seen_bits, -13 + 0, 7) AS active_in_week_0
-  udf.bits28_active_in_range(days_seen_bits, -13 + 7, 7) AS active_in_week_1
+<pre><code class="language-sql">SELECT
+  mozfun.bits28.active_in_range(days_seen_bits, -13 + 0, 7) AS active_in_week_0
+  mozfun.bits28.active_in_range(days_seen_bits, -13 + 7, 7) AS active_in_week_1
 FROM
   telemetry.clients_last_seen
 </code></pre>
-<p>In terms of the higher-level <code>bits28_retention</code> function discussed earlier,
+<p>In terms of the higher-level <code>bits28.retention</code> function discussed earlier,
 here's how this client looks:</p>
-<pre><code>SELECT
+<pre><code class="language-sql">SELECT
   submission_date,
-  udf.bits28_retention(days_seen_bits, submission_date).day_13.*
+  mozfun.bits28.retention(days_seen_bits, submission_date).day_13.*
 FROM
   telemetry.clients_last_seen
 
@@ -623,16 +640,16 @@ bit pattern UDFs, let's define <code>n</code>-day retention as the fraction of c
 who are also active within the next <code>n</code> days. For example, 3-day retention would
 have a denominator of all clients active on day 0 and a numerator of all clients
 active on day 0 who were also active on days 1 or 2.</p>
-<p>To calculate <code>n</code>-day retention, we need to use the lower-level <code>bits28_range</code>
+<p>To calculate <code>n</code>-day retention, we need to use the lower-level <code>bits28.range</code>
 function:</p>
-<pre><code>DECLARE n INT64;
+<pre><code class="language-sql">DECLARE n INT64;
 SET n = 3;
 
 WITH base AS (
   SELECT
     *,
-    udf.bits28_active_in_range(days_seen_bits, -n + 1, 1) AS seen_on_day_0,
-    udf.bits28_active_in_range(days_seen_bits, -n + 2, n - 1) AS seen_after_day_0
+    mozfun.bits28.active_in_range(days_seen_bits, -n + 1, 1) AS seen_on_day_0,
+    mozfun.bits28.active_in_range(days_seen_bits, -n + 2, n - 1) AS seen_after_day_0
   FROM
     telemetry.clients_last_seen )
 SELECT
@@ -668,7 +685,7 @@ counts if we have our retention window end on <code>submission_date</code>.</p>
 to ensure we are considering late-arriving pings. For example, if we wanted
 to calculate 3-day retention but allow 2 days of cushion for late-arriving
 pings, we would need to use an offset of 5 days from <code>submission_date</code>:</p>
-<pre><code>DECLARE n, cushion_days, offset_to_day_0 INT64;
+<pre><code class="language-sql">DECLARE n, cushion_days, offset_to_day_0 INT64;
 SET n = 3;
 SET cushion_days = 2;
 SET offset_to_day_0 = 1 - n - cushion_days;
@@ -676,8 +693,8 @@ SET offset_to_day_0 = 1 - n - cushion_days;
 WITH base AS (
   SELECT
     *,
-    udf.bits28_active_in_range(days_seen_session_start_bits, offset_to_day_0, 1) AS seen_on_day_0,
-    udf.bits28_active_in_range(days_seen_session_start_bits, offset_to_day_0 + 1, n - 1) AS seen_after_day_0
+    mozfun.bits28.active_in_range(days_seen_session_start_bits, offset_to_day_0, 1) AS seen_on_day_0,
+    mozfun.bits28.active_in_range(days_seen_session_start_bits, offset_to_day_0 + 1, n - 1) AS seen_after_day_0
   FROM
     org_mozilla_fenix.baseline_clients_last_seen )
 SELECT
@@ -695,62 +712,240 @@ WHERE
 GROUP BY
   metric_date
 </code></pre>
-<h2><a class="header" href="#udf-reference" id="udf-reference">UDF Reference</a></h2>
-<h3><a class="header" href="#bits28_to_string" id="bits28_to_string"><code>bits28_to_string</code></a></h3>
-<p>Convert an INT64 field into a 28 character string representing the individual bits.</p>
-<pre><code>bits28_to_string(bits INT64)
+<h2><a class="header" href="#proposing-a-new-bit-pattern-field" id="proposing-a-new-bit-pattern-field">Proposing a new bit pattern field</a></h2>
+<p>The operational logic required to produce a <code>clients_last_seen</code> table makes
+it unwieldy for backfilling, so it has historically been difficult for data
+scientists to experiment with new bit pattern fields on their own.</p>
+<p>Below are sample queries for producing a small <code>clients_last_seen</code>-like table
+that presents an experimental usage definition. In this approach, the temporary
+analysis table we create actually stores a client's whole usage history as a
+BYTES field, and then we rely on view logic to present this as per-day windows.
+Much of the logic is boilerplate; the sections that would need to change for
+your specific new field are marked between <code>-- BEGIN</code> and <code>-- END</code> comments.</p>
+<p>The first example defines a new feature based on a measure that already exists
+in <code>clients_daily</code>. It takes only a few minutes to run:</p>
+<pre><code class="language-sql">DECLARE start_date DATE DEFAULT '2020-05-01';
+DECLARE end_date DATE DEFAULT '2020-11-01';
+DECLARE target_sample_id INT64 DEFAULT 0;
 
-SELECT udf.bits28_to_string(18)
+CREATE TEMP FUNCTION process_bits(bits BYTES) AS (
+  STRUCT(
+    bits,
+
+    -- An INT64 version of the bits, compatible with bits28 functions
+    CAST(CONCAT('0x', TO_HEX(RIGHT(bits, 4))) AS INT64) &lt;&lt; 36 &gt;&gt; 36 AS bits28,
+
+    -- An INT64 version of the bits with 64 days of history
+    CAST(CONCAT('0x', TO_HEX(RIGHT(bits, 4))) AS INT64) AS bits64,
+
+    -- A field like days_since_seen from clients_last_seen.
+    udf.bits_to_days_since_seen(bits) AS days_since_active,
+
+    -- Days since first active, analogous to first_seen_date in clients_first_seen
+    udf.bits_to_days_since_first_seen(bits) AS days_since_first_active
+  )
+);
+
+CREATE OR REPLACE TABLE
+  analysis.&lt;myuser&gt;_newfeature
+PARTITION BY submission_date
+CLUSTER BY sample_id
+AS
+WITH
+alltime AS (
+  SELECT
+    sample_id,
+    client_id,
+    -- BEGIN
+    -- Here we produce bit pattern fields based on the daily aggregates from the
+    -- previous step;
+    udf.bits_from_offsets(
+      ARRAY_AGG(
+        IF(active_hours_sum &gt;= 1,DATE_DIFF(end_date, submission_date, DAY), NULL)
+        IGNORE NULLS
+      )
+    ) AS days_active_bits,
+    -- END
+  FROM
+    telemetry.clients_daily
+  WHERE
+    sample_id = target_sample_id
+    AND submission_date BETWEEN start_date AND end_date
+  GROUP BY
+    sample_id,
+    client_id
+)
+SELECT
+  end_date - i AS submission_date,
+  sample_id,
+  client_id,
+  process_bits(days_active_bits &gt;&gt; i) AS days_active
+FROM
+  alltime
+-- The cross join parses each input row into one row per day since the client
+-- was first seen, emulating the format of the existing clients_last_seen table.
+CROSS JOIN
+  UNNEST(GENERATE_ARRAY(0, DATE_DIFF(end_date, start_date, DAY))) AS i
+WHERE
+  (days_active_bits &gt;&gt; i) IS NOT NULL
+</code></pre>
+<p>And here is a more complex example that references <code>main_v4</code> directly:</p>
+<details>
+<summary>Calculating a bit pattern field directly from `main_v4`</summary>
+<pre><code class="language-sql">DECLARE start_date DATE DEFAULT '2020-05-01';
+DECLARE end_date DATE DEFAULT '2020-11-01';
+DECLARE target_sample_id INT64 DEFAULT 0;
+
+CREATE TEMP FUNCTION process_bits(bits BYTES) AS (
+  STRUCT(
+    bits,
+
+    -- An INT64 version of the bits, compatible with bits28 functions
+    CAST(CONCAT('0x', TO_HEX(RIGHT(bits, 4))) AS INT64) &lt;&lt; 36 &gt;&gt; 36 AS bits28,
+
+    -- An INT64 version of the bits with 64 days of history
+    CAST(CONCAT('0x', TO_HEX(RIGHT(bits, 4))) AS INT64) AS bits64,
+
+    -- A field like days_since_seen from clients_last_seen.
+    udf.bits_to_days_since_seen(bits) AS days_since_active,
+
+    -- Days since first active, analogous to first_seen_date in clients_first_seen
+    udf.bits_to_days_since_first_seen(bits) AS days_since_first_active
+  )
+);
+
+CREATE OR REPLACE TABLE
+  analysis.&lt;myuser&gt;_newfeature
+PARTITION BY submission_date
+CLUSTER BY sample_id
+AS
+WITH
+-- If clients_daily already contains a measure that suffices as the basis for
+-- our new usage definition, we can skip this daily subquery and calculate
+-- alltime based on clients_daily rather than `main`.
+daily AS (
+  SELECT
+    DATE(submission_timestamp) AS submission_date,
+    sample_id,
+    client_id,
+    -- BEGIN
+    -- Here is where we put clients_daily-like aggregations that will be
+    -- used as the basis for bit patterns in the next step.
+    SUM(payload.processes.parent.scalars.browser_engagement_active_ticks)
+      AS active_ticks_sum,
+    -- END
+  FROM
+    telemetry.main
+  WHERE
+    sample_id = target_sample_id
+    AND DATE(submission_timestamp) BETWEEN start_date AND end_date
+  GROUP BY
+    submission_date,
+    sample_id,
+    client_id ),
+alltime AS (
+  SELECT
+    sample_id,
+    client_id,
+    -- BEGIN
+    -- Here we produce bit pattern fields based on the daily aggregates from the
+    -- previous step;
+    udf.bits_from_offsets(
+      ARRAY_AGG(
+        IF(active_ticks_sum &gt;= 8,DATE_DIFF(end_date, submission_date, DAY), NULL)
+        IGNORE NULLS
+      )
+    ) AS days_active_bits,
+    -- END
+  FROM
+    daily
+  GROUP BY
+    sample_id,
+    client_id
+)
+SELECT
+  end_date - i AS submission_date,
+  sample_id,
+  client_id,
+  process_bits(days_active_bits &gt;&gt; i) AS days_active
+FROM
+  alltime
+-- The cross join parses each input row into one row per day since the client
+-- was first seen, emulating the format of the existing clients_last_seen table.
+CROSS JOIN
+  UNNEST(GENERATE_ARRAY(0, DATE_DIFF(end_date, start_date, DAY))) AS i
+WHERE
+  (days_active_bits &gt;&gt; i) IS NOT NULL
+</code></pre>
+</details>
+<p>This script takes about 10 minutes to run over 6 months of data as written above
+and about an hour to run over the whole history of <code>main_v4</code> (starting at 2018-11-01).
+A query over the whole history of <code>clients_daily</code> (starting in early 2016)
+can run in about an hour as well.
+The resultant table can be used on its own
+or joined with <code>clients_daily</code> to pull per-client dimensions.</p>
+<p>If the definition proves useful in validation, your variant of the query
+above can serve as a good starting point for Data Engineering to integrate the new
+definition into <code>clients_last_seen</code> (and <code>clients_daily</code> if necessary).
+Once a new definition is integrated into the model, we can backfill two months of
+data fairly easily. Complete backfills are expensive in terms of computational cost
+and engineering effort, so cannot happen more than approximately quarterly.</p>
+<h2><a class="header" href="#udf-reference" id="udf-reference">UDF Reference</a></h2>
+<h3><a class="header" href="#bits28to_string" id="bits28to_string"><code>bits28.to_string</code></a></h3>
+<p>Convert an INT64 field into a 28 character string representing the individual bits.</p>
+<pre><code class="language-sql">bits28.to_string(bits INT64)
+
+SELECT mozfun.bits28.to_string(18)
 &gt;&gt; 0000000000000000000000010010
 </code></pre>
-<h3><a class="header" href="#bits28_from_string" id="bits28_from_string"><code>bits28_from_string</code></a></h3>
+<h3><a class="header" href="#bits28from_string" id="bits28from_string"><code>bits28.from_string</code></a></h3>
 <p>Convert a string representing individual bits into an INT64.</p>
-<pre><code>bits28_from_string(bits STRING)
+<pre><code class="language-sql">bits28.from_string(bits STRING)
 
-SELECT udf.bits28_from_string('10010')
+SELECT mozfun.bits28.from_string('10010')
 &gt;&gt; 18
 </code></pre>
-<h3><a class="header" href="#bits28_to_dates" id="bits28_to_dates"><code>bits28_to_dates</code></a></h3>
+<h3><a class="header" href="#bits28to_dates" id="bits28to_dates"><code>bits28.to_dates</code></a></h3>
 <p>Convert a bit pattern into an array of the dates is represents.</p>
-<pre><code>bits28_to_dates(bits INT64, end_date DATE)
+<pre><code class="language-sql">bits28.to_dates(bits INT64, end_date DATE)
 
-SELECT udf.bits28_to_dates(18, '2020-01-28')
+SELECT mozfun.bits28.to_dates(18, '2020-01-28')
 &gt;&gt; ['2020-01-24', '2020-01-27']
 </code></pre>
-<h3><a class="header" href="#bits28_days_since_seen" id="bits28_days_since_seen"><code>bits28_days_since_seen</code></a></h3>
+<h3><a class="header" href="#bits28days_since_seen" id="bits28days_since_seen"><code>bits28.days_since_seen</code></a></h3>
 <p>Return the position of the rightmost set bit in an INT64 bit pattern.</p>
-<pre><code>bits28_days_since_seen(bits INT64)
+<pre><code class="language-sql">bits28.days_since_seen(bits INT64)
 
-SELECT bits28_days_since_seen(18)
+SELECT bits28.days_since_seen(18)
 &gt;&gt; 1
 </code></pre>
-<h3><a class="header" href="#bits28_range" id="bits28_range"><code>bits28_range</code></a></h3>
+<h3><a class="header" href="#bits28range" id="bits28range"><code>bits28.range</code></a></h3>
 <p>Return an INT64 representing a range of bits from a source bit pattern.</p>
 <p>The <code>start_offset</code> must be zero or a negative number indicating an offset from
 the rightmost bit in the pattern.</p>
 <p><code>n_bits</code> is the number of bits to consider, counting right from the bit at <code>start_offset</code>.</p>
-<pre><code>bits28_range(bits INT64, offset INT64, n_bits INT64)
+<pre><code class="language-sql">bits28.range(bits INT64, offset INT64, n_bits INT64)
 
-SELECT udf.bits28_to_string(udf.bits28_range(18, 5, 6))
+SELECT mozfun.bits28.to_string(mozfun.bits28.range(18, 5, 6))
 &gt;&gt; '010010'
-SELECT udf.bits28_to_string(udf.bits28_range(18, 5, 2))
+SELECT mozfun.bits28.to_string(mozfun.bits28.range(18, 5, 2))
 &gt;&gt; '01'
-SELECT udf.bits28_to_string(udf.bits28_range(18, 5 - 2, 4))
+SELECT mozfun.bits28.to_string(mozfun.bits28.range(18, 5 - 2, 4))
 &gt;&gt; '0010'
 </code></pre>
-<h3><a class="header" href="#bits28_active_in_range" id="bits28_active_in_range"><code>bits28_active_in_range</code></a></h3>
+<h3><a class="header" href="#bits28active_in_range" id="bits28active_in_range"><code>bits28.active_in_range</code></a></h3>
 <p>Return a boolean indicating if any bits are set in the specified range of a bit pattern.</p>
 <p>The <code>start_offset</code> must be zero or a negative number indicating an offset from
 the rightmost bit in the pattern.</p>
 <p><code>n_bits</code> is the number of bits to consider, counting right from the bit at <code>start_offset</code>.</p>
-<pre><code>bits28_active_in_range(bits INT64, start_offset INT64, n_bits INT64)
+<pre><code class="language-sql">bits28.active_in_range(bits INT64, start_offset INT64, n_bits INT64)
 </code></pre>
-<h3><a class="header" href="#bits28_retention" id="bits28_retention"><code>bits28_retention</code></a></h3>
+<h3><a class="header" href="#bits28retention" id="bits28retention"><code>bits28.retention</code></a></h3>
 <p>Return a nested struct providing numerator and denominator fields for
 the standard 1-Week, 2-Week, and 3-Week retention definitions.</p>
-<pre><code>bits28_retention(bits INT64, submission_date DATE)
+<pre><code class="language-sql">bits28.retention(bits INT64, submission_date DATE)
 </code></pre>
-<footer id="open-on-gh">Found a bug? <a href="https://github.com/mozilla/firefox-data-docs/edit/master/src/cookbooks/clients_last_seen_bits.md">Edit this file on GitHub.</a></footer>
+<footer id="open-on-gh">Found a bug? <a href="https://github.com/mozilla/data-docs/edit/master/src/cookbooks/clients_last_seen_bits.md">Edit this file on GitHub.</a></footer>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
@@ -810,10 +1005,10 @@ the standard 1-Week, 2-Week, and 3-Week retention definitions.</p>
         
 
         
-        
+
         
         <script type="text/javascript">
-            window.playpen_copyable = true;
+            window.playground_copyable = true;
         </script>
         
 
